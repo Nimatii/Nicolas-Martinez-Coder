@@ -1,0 +1,107 @@
+* {margin: 0;padding: 0;}
+.paginaPrincipal {color: rebeccapurple;
+        background-image:url(../media/Fondo.jpg) ;
+        background-size: 200vh;;
+        height: 190px;
+        font-size: 40px;
+        text-align: center;}
+.paginaPrincipal h1{padding-top: 40px;}
+
+footer {background-color: rgb(118, 101, 231);
+        color: white;
+        text-align: center;
+        margin-top: 200px;}
+
+
+h2 {color: white;
+        text-align: center;}
+
+.tablaPrincipal{background-color: white;
+        border-color: purple;
+        border-collapse: collapse;}
+
+h3{color: rgb(255, 255, 255);}
+
+ul{color: rgb(255, 255, 255);}
+
+.productos{background-color: rebeccapurple;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        }   
+
+.filtros{background-color: rebeccapurple;
+        width: 170px;
+        padding-left: 20px;
+        height: 600px;
+        float: left;}     
+
+body{background-color: slateblue;
+        font-family: 'Noto Sans JP', sans-serif}
+
+nav{background-color: rgb(165, 105, 221);
+        text-align: center;}
+
+.titulo{font-size: 40px;;
+        color: white;
+        text-align: center;
+        padding-top: 40px;}
+
+.menu li{display:  inline;;
+        padding-right: 20px;
+        padding-left: 20px;}
+
+a:visited{color: white;
+        text-decoration: none}
+a:hover{color: black;
+        text-decoration: underline;}
+a:link{text-decoration: none}
+a:active{text-decoration: underline}
+
+td:hover {background-color: #a3a2a2;}
+
+td {padding: 15px;    
+         text-align: left;}
+
+label{color: white;}
+
+.nosotros{padding-left: 50px;}
+
+.direcciones li{padding-left: 100px;} 
+
+
+.tablaCaracteristicas{background-color: white;
+         border-color: purple;
+         border-collapse: collapse;}
+
+.cuerpo{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        }
+
+.historial{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0% 20%;
+        padding-top: 50px;}
+
+
+
+section#productos{
+        grid-area: productos;
+        display: grid;
+        grid-template-columns: repeat(4, 465px);
+        grid-template-rows: repeat(4, 476px);
+}
+section#productos div{
+       margin: 100px 100px;
+       padding-left: 50px;
+
+}
+.dropdown{
+        padding: 20px;
+}
+
+.navbar{margin-top: 20px;}
