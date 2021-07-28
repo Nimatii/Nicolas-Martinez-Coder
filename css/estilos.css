@@ -1,5 +1,5 @@
 * {margin: 0;padding: 0;}
-.paginaPrincipal {color: rgb(61, 51, 153);
+.paginaPrincipal {color: rebeccapurple(61, 51, 153);
         background-image:url(../media/Fondo.jpg) ;
         background-size: 200vh;;
         height: 190px;
@@ -36,7 +36,7 @@ ul{color: rgb(255, 255, 255);}
         height: 600px;
         float: left;}     
 
-body{background-color: rgb(255, 0, 0);
+body{background-color: slateblue;
         font-family: 'Noto Sans JP', sans-serif}
 
 nav{background-color: rgb(165, 105, 221);
